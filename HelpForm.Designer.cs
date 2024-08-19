@@ -1,4 +1,4 @@
-﻿namespace Webp2jpg
+﻿namespace ImageTransformer
 {
     partial class HelpForm
     {

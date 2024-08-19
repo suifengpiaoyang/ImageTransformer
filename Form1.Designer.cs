@@ -1,4 +1,4 @@
-﻿namespace Webp2jpg
+﻿namespace ImageTransformer
 {
     partial class Form1
     {
@@ -43,10 +43,11 @@
             // 
             this.textBox1.AllowDrop = true;
             this.textBox1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox1.Location = new System.Drawing.Point(25, 34);
+            this.textBox1.Location = new System.Drawing.Point(17, 23);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(487, 35);
+            this.textBox1.Size = new System.Drawing.Size(326, 26);
             this.textBox1.TabIndex = 0;
             this.textBox1.DragDrop += new System.Windows.Forms.DragEventHandler(this.textBox1_DragDrop);
             this.textBox1.DragEnter += new System.Windows.Forms.DragEventHandler(this.textBox1_DragEnter);
@@ -55,9 +56,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(541, 34);
+            this.button1.Location = new System.Drawing.Point(361, 23);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(155, 35);
+            this.button1.Size = new System.Drawing.Size(103, 26);
             this.button1.TabIndex = 1;
             this.button1.Text = "转换";
             this.button1.UseVisualStyleBackColor = true;
@@ -67,20 +69,21 @@
             // 
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(12, 53);
+            this.panel1.Location = new System.Drawing.Point(8, 35);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(719, 99);
+            this.panel1.Size = new System.Drawing.Size(479, 66);
             this.panel1.TabIndex = 2;
             // 
             // menuStrip1
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.帮助ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(754, 32);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(503, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -89,28 +92,29 @@
             this.帮助ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ViewHelpMenuItem});
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(62, 28);
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 22);
             this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // ViewHelpMenuItem
             // 
             this.ViewHelpMenuItem.Name = "ViewHelpMenuItem";
-            this.ViewHelpMenuItem.Size = new System.Drawing.Size(182, 34);
+            this.ViewHelpMenuItem.Size = new System.Drawing.Size(124, 22);
             this.ViewHelpMenuItem.Text = "使用须知";
             this.ViewHelpMenuItem.Click += new System.EventHandler(this.ViewHelpMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 180);
+            this.ClientSize = new System.Drawing.Size(503, 120);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Webp2jpg";
+            this.Text = "ImageTransformer";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

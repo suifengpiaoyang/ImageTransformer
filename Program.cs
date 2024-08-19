@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Webp2jpg
+namespace ImageTransformer
 {
     internal static class Program
     {

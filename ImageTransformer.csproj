@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DCB1EE41-7DCA-4111-AB38-4587845406FF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Webp2jpg</RootNamespace>
-    <AssemblyName>Webp2jpg</AssemblyName>
+    <RootNamespace>ImageTransformer</RootNamespace>
+    <AssemblyName>ImageTransformer</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -37,7 +37,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Webp2jpg.ico</ApplicationIcon>
+    <ApplicationIcon>ImageTransformer.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -121,7 +121,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Webp2jpg.ico" />
+    <Content Include="ImageTransformer.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

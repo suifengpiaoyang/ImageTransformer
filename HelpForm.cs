@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Webp2jpg
+namespace ImageTransformer
 {
     public partial class HelpForm : Form
     {

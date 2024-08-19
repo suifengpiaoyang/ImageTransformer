@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Webp2jpg.Properties
+namespace ImageTransformer.Properties
 {
 
 
