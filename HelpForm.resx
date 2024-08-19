@@ -118,11 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>将一张图片或者一个放有 .webp 图片的文件夹拖动到程序的输入框内，按 Enter 或者点击按键程序即可运行。
+    <value>将一张图片或者一个放有图片的文件夹拖动到程序的输入框内，选择输出的图片格式，点击按键程序即可运行。
 
-对于一张图片，程序会将该图片转换成 .jpg 格式的图片，保存在图片所在的路径下，文件名的后缀变成了 .jpg
+目前支持的输入图片格式为：jpg|jpeg|png|gif|tiff|tif|bmp|webp|heic|heif|ico|svg
 
-对于文件夹的话，程序会扫描文件夹中所有后缀名为 .webp 的文件，然后在原来文件夹同等级的路径下，新建一个后缀带有 _transform 的文件夹。循环将原文件夹中的图片转换完成，保存在新路径下。
+(pdf 暂不支持作为输入，后续有需要再考虑适配。)
+
+对于一张图片，程序会将该图片转换成 .jpg 格式的图片，保存在图片所在的路径下，文件后缀变成你选择的那种文件后缀。
+
+对于文件夹的话，程序会扫描文件夹中所有后缀名符合输入格式的图片文件，然后在原来文件夹同等级的路径下，新建一个后缀带有 _transform 的文件夹。循环将原文件夹中的图片转换完成，保存在新路径下。
 
 转换完成之后，会弹出一个转换完成的对话框。</value>
   </data>
